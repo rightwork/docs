@@ -333,7 +333,7 @@ Possible errors:
 ## Manage Data
 [JavaScript](http://stellar.github.io/js-stellar-sdk/Operation.html#.manageData) | [Java](http://stellar.github.io/java-stellar-sdk/org/stellar/sdk/ManageDataOperation.Builder.html) | [Go](https://godoc.org/github.com/stellar/go/build#ManageDataBuilder)
 
-Allows you to set,modify or delete a Data Entry (name/value pair) that is attached to a particular account. An account can have an arbitrary amount of DataEntries attached to it. Each DataEntry increases the minimum balance needed to be held by the account.
+Allows you to set,modify or delete a Data Entry (name/value pair) that is attached to a particular account. An account can have an arbitrary amount of DataEntries attached to it. Each DataEntry increases the [minimum balance](./fees.html#minimum-account-balance) needed to be held by the account.
 
 DataEntries can be used for application specific things. They are not used by the core Stellar protocol.
 
